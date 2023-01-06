@@ -6,6 +6,11 @@ scoreboard objectives remove ffcircle
 scoreboard objectives remove ffsector
 scoreboard objectives remove fftower
 scoreboard objectives remove ffline
+scoreboard objectives remove fftemp
+scoreboard objectives remove fftemp1
+scoreboard objectives remove fftemp2
+scoreboard objectives remove fftemp3
+
 # 清理实体
 kill @e[type=area_effect_cloud,tag=ffmarker]
 # 清理tag
